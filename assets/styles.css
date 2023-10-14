@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+.main-body {
+	max-width: 1080px;
+	background-color: white;
+	padding: 15px;
+	margin:20px auto;
+	overflow: hidden;
+}
+
+header {
+	background-color: crimson;
+	color: white;
+	padding: 20px
+}
+
+header h2{
+	margin-bottom: 10px;
+	font-size: 38px;
+}
+
+.navigasi ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: darkorange;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.navigasi li a:hover {
+	background-color: red;
+	transition-duration: 2s;
+}
+
+.banner {
+	margin-bottom: 15px;
+}
+
+.banner img {
+	width: 100%;
+	height: 330px;
+	display: block;
+}
+
+footer {
+	background-color: crimson;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	clear: both;
+}
+
+.left-sidebar {
+	width: 250px;
+	margin-right: 10px;
+	float: left;
+}
+
+.card {
+	border: 1px solid grey;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+ .card h3{
+	 background-color: crimson;
+	 color: white;
+	 text-align: center;
+	 padding: 10px;
+	 margin-bottom: 12px;
+ }
+
+.tombol {
+	text-decoration: none;
+	padding: 10px;
+	width: 120px;
+	color: white;
+	text-align: center;
+	display: block;	
+	margin-top: 12px;
+	border-radius: 5px;
+}
+
+.tombol-hijau {
+	background-color: green;
+}
+
+.tombol-hijau:hover {
+	background-color: darkorange;
+	transition-duration: 1s
+}
+
+.tombol-kuning {
+	background-color: darkorange;
+}
+
+.tombol-kuning:hover {
+	background-color: green;
+	transition-duration: 1s;
+}
+
+.main-content {
+	width: 530px;
+	margin-right: 10px;
+	float: left;
+}
+
+.card img {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px
+}
+
+.right-sidebar {
+	width: 250px;
+	float: left;
+}
+
+.berita ul{
+	list-style-type: none;
+}
+
+.berita ul li a {
+	color: black;
+	display: block;
+	margin-bottom: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid grey;
+	padding: 3px;
+}
+
+.berita ul li a:hover {
+	color: crimson;
+}
+
+.tangal-posting {
+	text-align: right;
+	font-size: 12px;
+	color: darkgrey;
+	margin-bottom: 10px;
+}
